@@ -94,7 +94,6 @@ export default function Home() {
                     <div>
                         <h3 className='quiensoy' >Tecnologías</h3>
                         <div className='contenedorTecnologias'>
-                            <div className='loguitos'>
                                 <OverlayTrigger
                                     key={"bottom"}
                                     placement={'bottom'}
@@ -102,10 +101,10 @@ export default function Home() {
                                         <Tooltip id={`tooltip-${"bottom"}`}>
                                             javascript
                                         </Tooltip>}>
+                                            <div className='loguitos'>
                                     <img src='https://api.iconify.design/ion:logo-javascript.svg' className='img' />
-                                </OverlayTrigger>
                             </div>
-                            <div className='loguitos'>
+                                </OverlayTrigger>
                             <OverlayTrigger
                                     key={"bottom"}
                                     placement={'bottom'}
@@ -113,10 +112,10 @@ export default function Home() {
                                         <Tooltip id={`tooltip-${"bottom"}`}>
                                             HTML5
                                         </Tooltip>}>
+                                            <div className='loguitos'>
                                 <img src='https://api.iconify.design/mdi:language-html5.svg' className='img' />
-                                </OverlayTrigger>
                             </div>
-                            <div className='loguitos'>
+                                </OverlayTrigger>
                             <OverlayTrigger
                                     key={"bottom"}
                                     placement={'bottom'}
@@ -124,10 +123,10 @@ export default function Home() {
                                         <Tooltip id={`tooltip-${"bottom"}`}>
                                             CSS3
                                         </Tooltip>}>
+                                            <div className='loguitos'>
                                 <img src='https://api.iconify.design/teenyicons:css3-solid.svg' className='img' />
-                                </OverlayTrigger>
                             </div>
-                            <div className='loguitos'>
+                                </OverlayTrigger>
                             <OverlayTrigger
                                     key={"bottom"}
                                     placement={'bottom'}
@@ -135,10 +134,10 @@ export default function Home() {
                                         <Tooltip id={`tooltip-${"bottom"}`}>
                                             React
                                         </Tooltip>}>
+                                            <div className='loguitos'>
                                 <img src='https://api.iconify.design/akar-icons:react-fill.svg' className='img' />
-                                </OverlayTrigger>
                             </div>
-                            <div className='loguitos'>
+                                </OverlayTrigger>
                             <OverlayTrigger
                                     key={"bottom"}
                                     placement={'bottom'}
@@ -146,10 +145,10 @@ export default function Home() {
                                         <Tooltip id={`tooltip-${"bottom"}`}>
                                             Redux
                                         </Tooltip>}>
+                                            <div className='loguitos'>
                                 <img src='https://api.iconify.design/bxl:redux.svg' className='img' />
-                                </OverlayTrigger>
                             </div>
-                            <div className='loguitos'>
+                                </OverlayTrigger>
                             <OverlayTrigger
                                     key={"bottom"}
                                     placement={'bottom'}
@@ -157,10 +156,10 @@ export default function Home() {
                                         <Tooltip id={`tooltip-${"bottom"}`}>
                                             Bootstrap
                                         </Tooltip>}>
+                                            <div className='loguitos'>
                                 <img src='https://api.iconify.design/cib:bootstrap.svg' className='img' />
-                                </OverlayTrigger>
                             </div>
-                            <div className='loguitos'>
+                                </OverlayTrigger>
                             <OverlayTrigger
                                     key={"bottom"}
                                     placement={'bottom'}
@@ -168,12 +167,12 @@ export default function Home() {
                                         <Tooltip id={`tooltip-${"bottom"}`}>
                                             Node
                                         </Tooltip>}>
+                                            <div className='loguitos'>
                                 <img src='https://api.iconify.design/fa-brands:node.svg' className='img' />
-                                </OverlayTrigger>
                             </div>
+                                </OverlayTrigger>
                         </div>
                         <div className='contenedorTecnologias' style={{marginBottom: '30px'}}>
-                            <div className='loguitos'>
                             <OverlayTrigger
                                     key={"bottom"}
                                     placement={'bottom'}
@@ -181,10 +180,10 @@ export default function Home() {
                                         <Tooltip id={`tooltip-${"bottom"}`}>
                                             Express
                                         </Tooltip>}>
+                                            <div className='loguitos'>
                                 <img src='https://api.iconify.design/simple-icons:express.svg' className='img' />
-                                </OverlayTrigger>
                             </div>
-                            <div className='loguitos'>
+                                </OverlayTrigger>
                             <OverlayTrigger
                                     key={"bottom"}
                                     placement={'bottom'}
@@ -192,10 +191,10 @@ export default function Home() {
                                         <Tooltip id={`tooltip-${"bottom"}`}>
                                             Sequelize
                                         </Tooltip>}>
+                                            <div className='loguitos'>
                                 <img src='https://api.iconify.design/file-icons:sequelize.svg' className='img' />
-                                </OverlayTrigger>
                             </div>
-                            <div className='loguitos'>
+                                </OverlayTrigger>
                             <OverlayTrigger
                                     key={"bottom"}
                                     placement={'bottom'}
@@ -203,10 +202,10 @@ export default function Home() {
                                         <Tooltip id={`tooltip-${"bottom"}`}>
                                             PostresSQL
                                         </Tooltip>}>
+                                            <div className='loguitos'>
                                 <img src='https://api.iconify.design/akar-icons:postgresql-fill.svg' className='img' />
-                                </OverlayTrigger>
                             </div>
-                            <div className='loguitos'>
+                                </OverlayTrigger>
                             <OverlayTrigger
                                     key={"bottom"}
                                     placement={'bottom'}
@@ -214,10 +213,10 @@ export default function Home() {
                                         <Tooltip id={`tooltip-${"bottom"}`}>
                                             Auth0
                                         </Tooltip>}>
+                                            <div className='loguitos'>
                                 <img src='https://img.icons8.com/external-tal-revivo-regular-tal-revivo/24/000000/external-auth0-the-solution-you-need-for-web-mobile-iot-and-internal-applications-logo-regular-tal-revivo.png' className='img' />
-                                </OverlayTrigger>
                             </div>
-                            <div className='loguitos'>
+                                </OverlayTrigger>
                             <OverlayTrigger
                                     key={"bottom"}
                                     placement={'bottom'}
@@ -225,10 +224,10 @@ export default function Home() {
                                         <Tooltip id={`tooltip-${"bottom"}`}>
                                             Git
                                         </Tooltip>}>
+                                            <div className='loguitos'>
                                 <img src="https://img.icons8.com/ios-filled/50/000000/git.png" className='img' />
-                                </OverlayTrigger>
                             </div>
-                            <div className='loguitos'>
+                                </OverlayTrigger>
                             <OverlayTrigger
                                     key={"bottom"}
                                     placement={'bottom'}
@@ -236,10 +235,10 @@ export default function Home() {
                                         <Tooltip id={`tooltip-${"bottom"}`}>
                                             Figma
                                         </Tooltip>}>
+                                            <div className='loguitos'>
                                 <img src='https://img.icons8.com/ios-glyphs/30/000000/figma.png' className='img' />
-                                </OverlayTrigger>
                             </div>
-                            <div className='loguitos'>
+                                </OverlayTrigger>
                             <OverlayTrigger
                                     key={"bottom"}
                                     placement={'bottom'}
@@ -247,9 +246,10 @@ export default function Home() {
                                         <Tooltip id={`tooltip-${"bottom"}`}>
                                             Trello
                                         </Tooltip>}>
+                                            <div className='loguitos'>
                                 <img src="https://img.icons8.com/ios-filled/50/000000/trello.png" className='img' />
-                                </OverlayTrigger>
                             </div>
+                                </OverlayTrigger>
 
                         </div>
                     </div>
