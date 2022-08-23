@@ -67,7 +67,7 @@ export default function Home() {
                         </div> */}
                         </div>
                         <div>
-                            <div title='section1' id='section1'>
+                            <div id='section1'>
                                 <div>
                                     <h3 className='quiensoy' style={{ marginBottom: '25px' }}>Quién soy?</h3>
                                     <div className='contenedorinfo'>
@@ -79,7 +79,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div title='section2' id='section2'>
+                        <div id='section2'>
                             <div>
                                 <h3 className='quiensoy' style={{ marginTop: '30px' }}>Proyectos</h3>
 
@@ -111,7 +111,7 @@ export default function Home() {
 
                             </div>
                         </div>
-                        <div title='section3' id='section3' style={{ paddingTop: '35px' }}>
+                        <div id='section3' style={{ paddingTop: '35px' }}>
                             <div>
                                 <h3 className='quiensoy' >Tecnologías</h3>
                                 <div className='contenedorTecnologias'>
@@ -275,7 +275,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div title='section4' id='section4'>
+                        <div id='section4'>
                             <div>
                                 <h3 className='quiensoy'>Contáctame</h3>
                                 <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap', width: '100%', justifyContent: 'space-around', marginTop: '25px', marginBottom: '30px' }}>
@@ -324,7 +324,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div>
-                            <div title='section1' id='section1'>
+                            <div id='section1'>
                                 <div>
                                     <h3 className='quiensoy' style={{ marginBottom: '25px', fontSize: '24px', fontWeight: '800', marginBottom: '10px' }}>Quién soy?</h3>
                                     <div className='contenedorinfo' style={{ fontSize: '17px', margin: '0', padding: '0' }}>
@@ -336,7 +336,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div title='section2' id='section2'>
+                        <div id='section2'>
                             <div>
                                 <h3 className='quiensoy' style={{ marginTop: '25px', fontSize: '24px', fontWeight: '800', marginBottom: '10px' }}>Proyectos</h3>
 
@@ -368,7 +368,7 @@ export default function Home() {
 
                             </div>
                         </div>
-                        <div title='section3' id='section3' style={{ paddingTop: '35px' }}>
+                        <div id='section3' style={{ paddingTop: '35px' }}>
                             <div>
                                 <h3 className='quiensoy' style={{ marginTop: '25px', fontSize: '24px', fontWeight: '800', marginBottom: '10px' }}>Tecnologías</h3>
                                 <div style={{ display: 'flex', flexDirection: 'row', width: '100%', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center'}}>
@@ -530,7 +530,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div title='section4' id='section4'>
+                        <div id='section4'>
                             <div>
                                 <h3 className='quiensoy' style={{ marginTop: '35px', fontSize: '24px', fontWeight: '800', marginBottom: '0px', paddingBottom: '0' }}>Contáctame</h3>
                                 <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap', width: '100%', justifyContent: 'space-around', marginTop: '15px', marginBottom: '30px' }}>
