@@ -120,7 +120,7 @@ export default function Home() {
                                         placement={'bottom'}
                                         overlay={
                                             <Tooltip id={`tooltip-${"bottom"}`}>
-                                                javascript
+                                                Javascript
                                             </Tooltip>}>
                                         <div className='loguitos'>
                                             <img src='https://api.iconify.design/ion:logo-javascript.svg' className='img' />
@@ -175,6 +175,17 @@ export default function Home() {
                                         placement={'bottom'}
                                         overlay={
                                             <Tooltip id={`tooltip-${"bottom"}`}>
+                                                React Native
+                                            </Tooltip>}>
+                                        <div className='loguitos'>
+                                            <img src='https://img.icons8.com/ios/500/react-native--v1.png' className='img' />
+                                        </div>
+                                    </OverlayTrigger>
+                                    <OverlayTrigger
+                                        key={"bottom"}
+                                        placement={'bottom'}
+                                        overlay={
+                                            <Tooltip id={`tooltip-${"bottom"}`}>
                                                 Bootstrap
                                             </Tooltip>}>
                                         <div className='loguitos'>
@@ -221,10 +232,32 @@ export default function Home() {
                                         placement={'bottom'}
                                         overlay={
                                             <Tooltip id={`tooltip-${"bottom"}`}>
-                                                PostresSQL
+                                                PostgresSQL
                                             </Tooltip>}>
                                         <div className='loguitos'>
                                             <img src='https://api.iconify.design/akar-icons:postgresql-fill.svg' className='img' />
+                                        </div>
+                                    </OverlayTrigger>
+                                    <OverlayTrigger
+                                        key={"bottom"}
+                                        placement={'bottom'}
+                                        overlay={
+                                            <Tooltip id={`tooltip-${"bottom"}`}>
+                                                Java (aprendiendo)
+                                            </Tooltip>}>
+                                        <div className='loguitos'>
+                                            <img src='https://img.icons8.com/ios-glyphs/480/java-coffee-cup-logo.png' className='img' />
+                                        </div>
+                                    </OverlayTrigger>
+                                    <OverlayTrigger
+                                        key={"bottom"}
+                                        placement={'bottom'}
+                                        overlay={
+                                            <Tooltip id={`tooltip-${"bottom"}`}>
+                                                TypeScript (aprendiendo)
+                                            </Tooltip>}>
+                                        <div className='loguitos'>
+                                            <img src='https://cdn-icons-png.flaticon.com/512/5968/5968566.png' className='img' />
                                         </div>
                                     </OverlayTrigger>
                                     <OverlayTrigger
@@ -432,6 +465,17 @@ export default function Home() {
                                         placement={'bottom'}
                                         overlay={
                                             <Tooltip id={`tooltip-${"bottom"}`}>
+                                                React Native
+                                            </Tooltip>}>
+                                        <div className='loguitos' style={{width: '55px', height: '55px', marginBottom: '30px'}}>
+                                            <img src='https://img.icons8.com/ios/500/react-native--v1.png' className='img' style={{width: '30px', height: '30px'}}/>
+                                        </div>
+                                    </OverlayTrigger>
+                                    <OverlayTrigger
+                                        key={"bottom"}
+                                        placement={'bottom'}
+                                        overlay={
+                                            <Tooltip id={`tooltip-${"bottom"}`}>
                                                 Bootstrap
                                             </Tooltip>}>
                                         <div className='loguitos' style={{width: '55px', height: '55px', marginBottom: '30px'}}>
@@ -476,10 +520,32 @@ export default function Home() {
                                         placement={'bottom'}
                                         overlay={
                                             <Tooltip id={`tooltip-${"bottom"}`}>
-                                                PostresSQL
+                                                PostgresSQL
                                             </Tooltip>}>
                                         <div className='loguitos' style={{width: '55px', height: '55px', marginBottom: '30px'}}>
                                             <img src='https://api.iconify.design/akar-icons:postgresql-fill.svg' className='img' style={{width: '30px', height: '30px'}}/>
+                                        </div>
+                                    </OverlayTrigger>
+                                    <OverlayTrigger
+                                        key={"bottom"}
+                                        placement={'bottom'}
+                                        overlay={
+                                            <Tooltip id={`tooltip-${"bottom"}`}>
+                                                Java (aprendiendo)
+                                            </Tooltip>}>
+                                        <div className='loguitos'style={{width: '55px', height: '55px', marginBottom: '30px'}}>
+                                            <img src='https://img.icons8.com/ios-glyphs/480/java-coffee-cup-logo.png' className='img' style={{width: '30px', height: '30px'}}/>
+                                        </div>
+                                    </OverlayTrigger>
+                                    <OverlayTrigger
+                                        key={"bottom"}
+                                        placement={'bottom'}
+                                        overlay={
+                                            <Tooltip id={`tooltip-${"bottom"}`}>
+                                                TypeScript (aprendiendo)
+                                            </Tooltip>}>
+                                        <div className='loguitos'style={{width: '55px', height: '55px', marginBottom: '30px'}}>
+                                            <img src='https://cdn-icons-png.flaticon.com/512/5968/5968566.png' className='img' style={{width: '30px', height: '30px'}}/>
                                         </div>
                                     </OverlayTrigger>
                                     <OverlayTrigger
