@@ -15,6 +15,10 @@ import fotitoCountries5 from '../img/image0-4.jpeg'
 import fotitoFaltaUno3 from '../img/image0-3.jpeg'
 import fotitoFaltaUno4 from '../img/image1-1.jpeg'
 import fotitoFaltaUno5 from '../img/image2.jpeg'
+import fotitoHDP from '../img/imagenCompuHDP2.jpeg'
+import fotitoLista from '../img/imageLista.jpeg'
+import fotitoLista1 from '../img/imageLista1.jpeg'
+import fotitoHDP2 from '../img/imagenCompuHDP.jpeg'
 import Carrusel from './carrusel'
 
 
@@ -71,9 +75,9 @@ export default function Home() {
                                 <div>
                                     <h3 className='quiensoy' style={{ marginBottom: '25px' }}>Quién soy?</h3>
                                     <div className='contenedorinfo'>
-                                        <p className='texto'>  Desarrolladora especializada como Front End Developer. Curiosa, con ganas de aprender siempre cosas nuevas que me ayuden a crecer personal y profesionalmente cada día. Con excelente capacidad resolutiva, siempre buscando maneras rápidas y eficaces de solucionar los problemas, y con buena capacidad de liderazgo.
+                                        <p className='texto'>  Desarrolladora Full Stack apasionada por el Front End. Curiosa, con ganas de aprender siempre cosas nuevas que me ayuden a crecer profesionalmente y como persona. Con excelente capacidad resolutiva, siempre buscando maneras rápidas y eficaces de solucionar los problemas, Disfruto de trabajar en equipos donde pueda aprender y aportar mis conocimientos.
                                             <br />Inicié mi capacitación en la academia Henry y me sigo capacitando constantemente de manera autodidacta.
-                                            <br />Trabajé durante 3 años en atención al público, lo que me ayudo a desarrollar habilidades blandas como la comunicación y el trabajo en equipo.
+                                            <br />Trabajé durante 3 años en atención al público, lo que me ayudo a desarrollar habilidades blandas como la comunicación, el compañerismo y la empatía.
                                         </p>
                                     </div>
                                 </div>
@@ -109,6 +113,32 @@ export default function Home() {
                                     </div>
                                 </div>
 
+                                <div className='contenedorrr' style={{ marginTop: '35px', alignItems: 'flex-start' }}>
+                                    <div>
+                                        <p className='tituloProyectos' style={{ width: '550px', marginLeft: '60px', marginRight: '20px', marginBottom: '0', marginTop: '0' }}><b style={{ fontWeight: '550' }}>HDP!</b> es la versión web del famoso juego de cartas HDP, realizada junto con dos amigos. Funciona principalmente con Socket IO y permite al usuario jugar con sus amigos, jugar en salas aleatorias y chatear por la aplicación.</p>
+                                        <div style={{ width: '50%', marginTop: '0' }}>
+                                            <img src={fotitoHDP} style={{ width: '680px', marginLeft: '-120px', position: 'absolute', zIndex: '6' }}></img>
+                                        </div>
+                                    </div>
+                                    <div style={{ display: 'flex', justifyConten: 'flex-end', marginTop: '0', flexDirection: 'column', width: '80%' }}>
+                                        <img src={fotitoHDP2} style={{ width: '750px', zIndex: '2', marginLeft: '-10px' }}></img>
+                                        <a href="https://hdp-game.vercel.app/" key='faltauno' target='_BLANCK'><button className='botonVisitar' style={{ marginTop: '80px', width: '400px', marginBottom: '120px' }}>Visitar HDP!</button></a>
+                                    </div>
+                                </div>
+
+                                <div className='contenedorrr' style={{ marginTop: '35px', alignItems: 'flex-start' }}>
+                                    <div>
+                                        <p className='tituloProyectos' style={{ width: '550px', marginLeft: '60px', marginRight: '20px', marginBottom: '0', marginTop: '0' }}><b style={{ fontWeight: '550' }}>Lista de Compras!</b> es un pequeño proyectito realizado con TypeScript que busca simplificar la forma de hacer la lista del sumpermercado, permite agregar predefinidos, agregar elemtos nuevos, marcar, modificar y eliminar elementos</p>
+                                        <div style={{ width: '50%', marginTop: '0' }}>
+                                            <img src={fotitoLista} style={{ width: '680px', marginLeft: '-120px', position: 'absolute', zIndex: '6' }}></img>
+                                        </div>
+                                    </div>
+                                    <div style={{ display: 'flex', justifyConten: 'flex-end', marginTop: '0', flexDirection: 'column', width: '80%' }}>
+                                        <img src={fotitoLista1} style={{ width: '750px', zIndex: '2', marginLeft: '-10px' }}></img>
+                                        <a href="https://lista-de-compras-rho.vercel.app/" key='faltauno' target='_BLANCK'><button className='botonVisitar' style={{ marginTop: '80px', width: '400px', marginBottom: '120px' }}>Visitar Lista de Compras!</button></a>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                         <div id='section3' style={{ paddingTop: '35px' }}>
@@ -124,6 +154,17 @@ export default function Home() {
                                             </Tooltip>}>
                                         <div className='loguitos'>
                                             <img src='https://api.iconify.design/ion:logo-javascript.svg' className='img' />
+                                        </div>
+                                    </OverlayTrigger>
+                                    <OverlayTrigger
+                                        key={"bottom"}
+                                        placement={'bottom'}
+                                        overlay={
+                                            <Tooltip id={`tooltip-${"bottom"}`}>
+                                                TypeScript
+                                            </Tooltip>}>
+                                        <div className='loguitos'>
+                                            <img src='https://cdn-icons-png.flaticon.com/512/5968/5968566.png' className='img' />
                                         </div>
                                     </OverlayTrigger>
                                     <OverlayTrigger
@@ -254,10 +295,10 @@ export default function Home() {
                                         placement={'bottom'}
                                         overlay={
                                             <Tooltip id={`tooltip-${"bottom"}`}>
-                                                TypeScript (aprendiendo)
+                                                Auth0
                                             </Tooltip>}>
                                         <div className='loguitos'>
-                                            <img src='https://cdn-icons-png.flaticon.com/512/5968/5968566.png' className='img' />
+                                            <img src='https://img.icons8.com/external-tal-revivo-regular-tal-revivo/24/000000/external-auth0-the-solution-you-need-for-web-mobile-iot-and-internal-applications-logo-regular-tal-revivo.png' className='img' />
                                         </div>
                                     </OverlayTrigger>
                                     <OverlayTrigger
@@ -265,10 +306,10 @@ export default function Home() {
                                         placement={'bottom'}
                                         overlay={
                                             <Tooltip id={`tooltip-${"bottom"}`}>
-                                                Auth0
+                                                Socket IO
                                             </Tooltip>}>
                                         <div className='loguitos'>
-                                            <img src='https://img.icons8.com/external-tal-revivo-regular-tal-revivo/24/000000/external-auth0-the-solution-you-need-for-web-mobile-iot-and-internal-applications-logo-regular-tal-revivo.png' className='img' />
+                                            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/640px-Socket-io.svg.png' className='img' />
                                         </div>
                                     </OverlayTrigger>
                                     <OverlayTrigger
@@ -557,6 +598,17 @@ export default function Home() {
                                             </Tooltip>}>
                                         <div className='loguitos' style={{width: '55px', height: '55px', marginBottom: '30px'}}>
                                             <img src='https://img.icons8.com/external-tal-revivo-regular-tal-revivo/24/000000/external-auth0-the-solution-you-need-for-web-mobile-iot-and-internal-applications-logo-regular-tal-revivo.png' className='img' style={{width: '30px', height: '30px'}}/>
+                                        </div>
+                                    </OverlayTrigger>
+                                    <OverlayTrigger
+                                        key={"bottom"}
+                                        placement={'bottom'}
+                                        overlay={
+                                            <Tooltip id={`tooltip-${"bottom"}`}>
+                                                Socket IO
+                                            </Tooltip>}>
+                                        <div className='loguitos' style={{width: '55px', height: '55px', marginBottom: '30px'}}>
+                                            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/640px-Socket-io.svg.png' className='img' style={{width: '30px', height: '30px'}}/>
                                         </div>
                                     </OverlayTrigger>
                                     <OverlayTrigger
